@@ -8,7 +8,7 @@
       "apiVersion": "2015-04-08",
       "location": "East US",
       "kind": "GlobalDocumentDB",
-      "comments": "Creates the destination CosmosDB store in the customer's subscription used in the ADF pipeline for the data output.",
+      "comments": "Creates the destination CosmosDB with Gremlin enabled.",
       "properties": {
         "consistencyPolicy": {
           "defaultConsistencyLevel": "Session",
