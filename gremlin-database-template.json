@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources": [
+        {
+            "name": "YOUR_GRAPH_DATABASE_NAME",
+            "type": "Microsoft.DocumentDB/databaseAccounts",
+            "apiVersion": "2015-04-08",
+            "location": "YOUR_INITIAL_LOCATION",
+            "tags": {},
+            "kind": "GlobalDocumentDB",
+            "properties": {
+              "name": "workshop-lbosq-gremlin",
+              "consistencyPolicy": {
+                "defaultConsistencyLevel": "Session",
+                "maxStalenessPrefix": 5,
+                "maxIntervalInSeconds": 100
+              },
+              "locations": [
+                {
+                  "locationName": "YOUR_INITIAL_LOCATION",
+                  "failoverPriority": 0
+                }
+              ],
+              "databaseAccountOfferType": "Standard",
+              "capabilities": [
+                {
+                  "name": "EnableGremlin"
+                }
+              ]
+            }
+        }
+    ]
+}
