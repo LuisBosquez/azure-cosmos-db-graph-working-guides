@@ -7,10 +7,12 @@
             "type": "Microsoft.DocumentDB/databaseAccounts",
             "apiVersion": "2015-04-08",
             "location": "YOUR_INITIAL_LOCATION",
-            "tags": {},
+            "tags": {
+                "defaultExperience": "Graph"
+            },
             "kind": "GlobalDocumentDB",
             "properties": {
-              "name": "workshop-lbosq-gremlin",
+              "name": "YOUR_GRAPH_DATABASE_NAME",
               "consistencyPolicy": {
                 "defaultConsistencyLevel": "Session",
                 "maxStalenessPrefix": 5,
