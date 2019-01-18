@@ -2,7 +2,7 @@
 
 Azure Cosmos DB Gremlin API graph collection stores data in the JSON format in the database engine backend. This data can be accessed using the SQL API clients by just using the documents endpoint as illustrated below:
 
-<img src="https://raw.githubusercontent.com/luisbosquez/azure-cosmos-db-graph-working-guides/res/graph-backend-json-1.jpg">
+<img src="https://raw.githubusercontent.com/LuisBosquez/azure-cosmos-db-graph-working-guides/master/res/graph-backend-json-1.jpg">
 
 In the default configuration, the vertex and edge objects are stored as JSON documents in the format specified below.
 

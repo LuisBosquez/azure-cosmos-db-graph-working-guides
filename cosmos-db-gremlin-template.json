@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "resources": [{
+      "name": "YOUR_RESOURCE_NAME",
+      "type": "Microsoft.DocumentDB/databaseAccounts",
+      "apiVersion": "2015-04-08",
+      "location": "East US",
+      "kind": "GlobalDocumentDB",
+      "comments": "Creates the destination CosmosDB with Gremlin enabled.",
+      "properties": {
+        "consistencyPolicy": {
+          "defaultConsistencyLevel": "Session",
+          "maxIntervalInSeconds": 5,
+          "maxStalenessPrefix": 100
+        },
+        "locations": [
+          {
+            "locationName": "East US",
+            "failoverPriority": 1
+          }
+        ],    
+        "databaseAccountOfferType": "Standard",
+        "ipRangeFilter": "string",
+        "enableAutomaticFailover": true,
+        "capabilities": [
+          {
+            "name": "EnableGremlin"
+          }
+        ]
+      }
+    }
+  ]
+}
