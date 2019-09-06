@@ -1,15 +1,14 @@
-# Azure Cosmos DB Graph database backend JSON format
+# Azure Cosmos DB Graph and SQL API multi-model functionality
+
+In Azure Cosmos DB, any Gremlin API database account is created with an endpoint that allows for document access using the standard SQL API connectivity libraries. 
+
+## Back-end JSON format
 
 Azure Cosmos DB Gremlin API graph collection stores data in the JSON format in the database engine backend. This data can be accessed using the SQL API clients by just using the documents endpoint as illustrated below:
 
 <img src="https://raw.githubusercontent.com/LuisBosquez/azure-cosmos-db-graph-working-guides/master/res/graph-backend-json-1.jpg">
 
 In the default configuration, the vertex and edge objects are stored as JSON documents in the format specified below.
-
-## Caveats
-Here are some important considerations:
-* Modifying the underlying format for a graph database structure may result in the engine not recognizing properties.
-* It may also affect the partition-seeking behavior.
 
 ## Vertices
 Vertices are stored as JSON documents that use the following format:
@@ -92,6 +91,10 @@ Edges are stored as JSON documents that use the following format:
     * `partitionKey`: key-value pair that stores the partitioning key of the **Edge itself**. This property name and value will be inherited from the **source Vertex** object. 
     * For more information, please visit the [Graph Partitioning topic](https://docs.microsoft.com/en-us/azure/cosmos-db/graph-partitioning).
 * The following are system properties – automatically added by Cosmos DB. They shouldn’t be modified manually: `_rid`, `_self`, `_etag`, `_attachments` and `_ts`. 
+
+## Caveats
+A JSON document that is structured in a way that isn't consistent with the format specified above will result in properties not being recognized by the Gremlin engine. 
+
 
 # Using Multi-model
 
