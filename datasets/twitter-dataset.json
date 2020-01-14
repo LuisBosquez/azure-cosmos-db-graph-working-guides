@@ -1,0 +1,495 @@
+[
+  {
+    "label": "tweet",
+    "id": "1019152776834703360",
+    "text": [
+      {
+        "_value": "#teamPG #CosmosDB #Ready2018",
+        "id": "84790fde-2a45-403e-96f7-b6dca5d27d96"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "und",
+        "id": "8baab18a-02f3-4fd7-a2cb-90d4c49803a3"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "30732921-ea62-47f0-a6dc-8c848f0fcf7e"
+      }
+    ]
+  },
+  {
+    "label": "hashtag",
+    "id": "cosmosdb"
+  },
+  {
+    "label": "hashtag",
+    "id": "teampg"
+  },
+  {
+    "label": "hashtag",
+    "id": "ready2018"
+  },
+  {
+    "label": "tweet",
+    "id": "1019153514222661632",
+    "text": [
+      {
+        "_value": "#teamLuis #cosmosdb #ready2018",
+        "id": "9b95a5a4-3bb5-468f-95e8-f787578c18f8"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "und",
+        "id": "1bb1f970-abdd-4776-940a-bd6dbe8ab54b"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "22b1e02a-3cb6-4443-8718-312ea4f8c64e"
+      }
+    ]
+  },
+  {
+    "label": "hashtag",
+    "id": "teamluis"
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "0f0f1440-a686-4bb6-87f2-cf85bb812db7",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019153514222661632",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "007d47c6-eb88-4b62-a014-ca49f9ad8e61",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019153514222661632",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019153882251812865",
+    "text": [
+      {
+        "_value": "#teamLuis #cosmosdb #ready2018 test",
+        "id": "ee8aa8c8-7ff1-4e75-b088-e028c065b8cf"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "6f68852a-e845-4e38-90aa-76bb841cf68b"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "02335c69-451b-4ae6-a5c8-a1fd0aaf8e67"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "83433a6b-dd7d-4da8-84c8-85a0ed5ce35d",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019153882251812865",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "a2b1f92d-a9aa-4056-8a7f-48c7d22595be",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019153882251812865",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019154779157610496",
+    "text": [
+      {
+        "_value": "#teamLuiS #teamPG #CosmosDB #Ready2018 test, again.",
+        "id": "df09e5d6-d43c-49ec-a97e-b5c54279860e"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "cacc0260-0618-4cd8-908c-535f106cac5a"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "6e941279-2724-4597-9823-ee8761435f09"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "450cd242-694a-46ba-a133-82f23813a94f",
+    "_sink": "teampg",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019154779157610496",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "a4860662-4f1e-458d-8d9b-0b0771c99092",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019154779157610496",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "95721311-14c1-4712-847c-21ca9967454e",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019154779157610496",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019155452452454400",
+    "text": [
+      {
+        "_value": "#teamCSA #CosmosDB #Ready2018 pls work",
+        "id": "e41d1344-14a8-4c67-8410-2fc6865586ed"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "22890958-c0b0-4489-8c21-6e6d8a94eb70"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "e70eb6e5-b7c7-4bfa-85ba-97fe8c5235f6"
+      }
+    ]
+  },
+  {
+    "label": "hashtag",
+    "id": "teamcsa"
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "a2f05da6-9508-4066-9386-eae7fee8211f",
+    "_sink": "teamcsa",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019155452452454400",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "eabdb3f7-d838-4e3e-a9f6-8dce9ad45aa2",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019155452452454400",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "b02c6a9b-ff31-459b-8dfc-d68fe533d136",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019155452452454400",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019293774185259008",
+    "text": [
+      {
+        "_value": "Lambda Architecture talk with @RafatSarosh #CosmosDB #Ready2018 #teamPG",
+        "id": "e049fdb7-75e1-40b7-8112-9068a2735da7"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "4e90383f-1d3f-4872-8434-d22b41c9e9bd"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "ea233859-43c9-40ac-976d-038cec3370f2"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "12d88225-bcf3-4b8b-95d8-e78a0aad8839",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019293774185259008",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "df583bc1-4e40-4b34-8ee7-76d97fca9a57",
+    "_sink": "teampg",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019293774185259008",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019294065509060618",
+    "text": [
+      {
+        "_value": "Lambda Architecture talk with @RafatSarosh #CosmosDB #Ready2018 #teamPG https://t.co/B5ZwuDoQ91",
+        "id": "1f2f3ca0-de7e-4b09-83b7-e7d945e4ba3e"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "978de3d8-c214-4868-bc3b-9d67e7f58dff"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "_lbosq",
+        "id": "692eede3-3edb-4f1d-87de-da43a5bdeb7c"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "a2c6e7ca-58dd-4c92-b20f-10845c955d53",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019294065509060618",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "8cfd7b82-934e-4070-920f-66265c2d07f8",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019294065509060618",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "bd686ca5-3701-4011-8782-b0874d86a8f5",
+    "_sink": "teampg",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019294065509060618",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019296306899009538",
+    "text": [
+      {
+        "_value": "I like #cosmosdb yeah!",
+        "id": "de95356d-85c3-4026-813d-d4fe09bd777a"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "80d8ef33-7583-4aab-8ab4-e22ef29c8519"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "flexray",
+        "id": "8dafa8ee-3899-46bb-9bd7-75a72fb1e9d3"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "65346d45-45c8-4ac7-85f6-7fdd43849a50",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019296306899009538",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "hashtag",
+    "id": "cosmisdb"
+  },
+  {
+    "label": "tweet",
+    "id": "1019296333666979840",
+    "text": [
+      {
+        "_value": "#CosmisDb #Ready2018 great live demo from three Cosmos team",
+        "id": "5ba2aeb0-ee55-4fcc-9324-633887207681"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "bf304795-498f-47db-b833-9ec349047134"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "mikewestywoo",
+        "id": "f78c79af-e2ec-4062-8461-8483f1ab7196"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "7b397d23-38b1-4a73-9292-1ea651856363",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019296333666979840",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019296364180615168",
+    "text": [
+      {
+        "_value": "#cosmosdb the greatest",
+        "id": "0b8573e4-4e67-493c-9d62-1e22ce307cf1"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "7b98f9b6-5431-4715-82a3-a62b8becdb32"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "guruhegde360",
+        "id": "40a22dfd-f3d9-4dc5-94ac-168ddffba92a"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "5197e0e8-de5d-42c2-ab95-c8bf98e43b9e",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019296364180615168",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019296820248231936",
+    "text": [
+      {
+        "_value": "#CosmosDB #READY2018 great live demo from the Cosmos team in Vegas",
+        "id": "045cca69-db27-48dd-9509-88bf16162b74"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "4905907f-3138-4be4-b079-e813cc449525"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "mikewestywoo",
+        "id": "51a20947-a3e8-4723-9249-6b376de80e2a"
+      }
+    ]
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "8cbafb93-c2dd-4171-9ff5-d566f3651d18",
+    "_sink": "cosmosdb",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019296820248231936",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "uses_hashtag",
+    "id": "0fc6381e-d4de-4a47-ad11-9ad6ac22e150",
+    "_sink": "ready2018",
+    "_sinkLabel": "hashtag",
+    "_vertexId": "1019296820248231936",
+    "_vertexLabel": "tweet",
+    "_isEdge": true
+  },
+  {
+    "label": "tweet",
+    "id": "1019297635155378176",
+    "text": [
+      {
+        "_value": "Yeah #cosmosdb rocks!!",
+        "id": "5418b26a-b89b-42e9-b4db-295b0668961f"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "dff6933d-a4b7-40c4-b53f-541b5a33eeb0"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "flexray",
+        "id": "d8253286-1026-428d-aa7b-026f6dd28427"
+      }
+    ]
+  },
+  {
+    "label": "tweet",
+    "id": "1019297976752078849",
+    "text": [
+      {
+        "_value": "Gimme more #cosmosdb",
+        "id": "6e06fc3a-5c5f-4155-bed8-a178d8b6b5be"
+      }
+    ],
+    "lang": [
+      {
+        "_value": "en",
+        "id": "71a6b27e-fb79-4641-a51f-13392c74e122"
+      }
+    ],
+    "handle": [
+      {
+        "_value": "flexray",
+        "id": "9b8020d4-b98d-47f7-91b7-7f16542b4f3e"
+      }
+    ]
+  },
+  {
+    "label": "luis",
+    "id": "ef3b899d-b806-4cfa-b811-e4e519216368"
+  }]
